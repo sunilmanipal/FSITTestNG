@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <test name="Test">
+    <classes>
+      <class name="Testng.demo1"/>
+      <class name="Testng.demo2"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="Testng.demo1">
+        <methods>
+          <include name="bm"/>
+          <include name="testcase1"/>
+          <include name="bs"/>
+          <include name="bt"/>
+          <include name="ac"/>
+          <include name="am"/>
+        </methods>
+      </class> <!-- Testng.demo1 -->
+      <class name="Testng.demo2">
+        <methods>
+          <include name="am"/>
+          <include name="at"/>
+          <include name="ac"/>
+          <include name="as"/>
+          <include name="bm"/>
+        </methods>
+      </class> <!-- Testng.demo2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="Testng.demo1">
+        <methods>
+          <include name="bm"/>
+          <include name="bm"/>
+          <include name="testcase1"/>
+          <include name="bs"/>
+          <include name="bt"/>
+          <include name="bt"/>
+          <include name="ac"/>
+          <include name="ac"/>
+          <include name="am"/>
+          <include name="am"/>
+        </methods>
+      </class> <!-- Testng.demo1 -->
+      <class name="Testng.demo2">
+        <methods>
+          <include name="am"/>
+          <include name="at"/>
+          <include name="at"/>
+          <include name="as"/>
+          <include name="ac"/>
+          <include name="bm"/>
+        </methods>
+      </class> <!-- Testng.demo2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test name="Test(failed)(failed)">
+    <classes>
+      <class name="Testng.demo1">
+        <methods>
+          <include name="bm"/>
+          <include name="bm"/>
+          <include name="testcase1"/>
+          <include name="bs"/>
+          <include name="bt"/>
+          <include name="bt"/>
+          <include name="ac"/>
+          <include name="ac"/>
+          <include name="am"/>
+          <include name="am"/>
+        </methods>
+      </class> <!-- Testng.demo1 -->
+      <class name="Testng.demo2">
+        <methods>
+          <include name="am"/>
+          <include name="at"/>
+          <include name="at"/>
+          <include name="as"/>
+          <include name="ac"/>
+          <include name="bm"/>
+        </methods>
+      </class> <!-- Testng.demo2 -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

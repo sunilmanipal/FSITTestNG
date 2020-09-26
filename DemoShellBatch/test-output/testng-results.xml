@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17180" started-at="2020-09-26T07:24:23Z" finished-at="2020-09-26T07:24:41Z">
+    <groups>
+    </groups>
+    <test name="chrome" duration-ms="15500" started-at="2020-09-26T07:24:23Z" finished-at="2020-09-26T07:24:39Z">
+      <class name="Testng.Demo9">
+        <test-method status="PASS" signature="bt(java.lang.String)[pri:0, instance:Testng.Demo9@2669b199]" name="bt" is-config="true" duration-ms="4079" started-at="2020-09-26T12:54:24Z" finished-at="2020-09-26T12:54:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:Testng.Demo9@2669b199]" name="testcase1" duration-ms="4703" started-at="2020-09-26T12:54:28Z" finished-at="2020-09-26T12:54:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="at()[pri:0, instance:Testng.Demo9@2669b199]" name="at" is-config="true" duration-ms="6693" started-at="2020-09-26T12:54:32Z" finished-at="2020-09-26T12:54:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+      </class> <!-- Testng.Demo9 -->
+    </test> <!-- chrome -->
+    <test name="firefox" duration-ms="17180" started-at="2020-09-26T07:24:23Z" finished-at="2020-09-26T07:24:41Z">
+      <class name="Testng.Demo9">
+        <test-method status="PASS" signature="bt(java.lang.String)[pri:0, instance:Testng.Demo9@56f4468b]" name="bt" is-config="true" duration-ms="7094" started-at="2020-09-26T12:54:24Z" finished-at="2020-09-26T12:54:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:Testng.Demo9@56f4468b]" name="testcase1" duration-ms="4705" started-at="2020-09-26T12:54:31Z" finished-at="2020-09-26T12:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="at()[pri:0, instance:Testng.Demo9@56f4468b]" name="at" is-config="true" duration-ms="5373" started-at="2020-09-26T12:54:35Z" finished-at="2020-09-26T12:54:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+      </class> <!-- Testng.Demo9 -->
+    </test> <!-- firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
